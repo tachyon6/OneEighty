@@ -28,6 +28,9 @@ export default function Features() {
                         />
                     ))}
                 </div>
+                <div className='mt-20 text-center'>
+                    <img src='/OneEighty_Logo.svg' alt='OneEighty Logo' className='mx-auto h-24 md:h-32' />
+                </div>
             </div>
         </section>
     );
