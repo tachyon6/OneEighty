@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "GmarketSans";
+    src: url("/GmarketSansTTFMedium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GmarketSans";
+    src: url("/GmarketSansTTFBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GmarketSans";
+    src: url("/GmarketSansTTFLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tway Fly";
+    src: url("/tway_fly.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pretendard";
+    src: url("/PretendardVariable.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SB Aggro";
+    src: url("/SB 어그로OTF M.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SB Aggro";
+    src: url("/SB 어그로OTF B.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SB Aggro";
+    src: url("/SB 어그로OTF L.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@layer base {
+    html {
+        font-family: "Pretendard", system-ui, sans-serif;
+    }
+}
