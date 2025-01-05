@@ -14,7 +14,7 @@ export const testimonials = [
         icon: UserCircle,
     },
     {
-        quote: "가벼운 만남이 아니라, 좋은 파트너를 찾고 싶어서 가입했는데 마치 친구가 소개해준 느낌이라 안심이었습니다!",
+        quote: "가벼운 만남이 아니라, 좋은 동반자를 찾고 싶어서 가입했는데 마치 친구가 소개해준 느낌이라 안심이었습니다!",
         author: "박○○",
         role: "24세, 졸업생",
         icon: UserCircle,
