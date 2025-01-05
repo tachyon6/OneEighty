@@ -10,16 +10,11 @@ interface FeatureCardProps {
 
 export function FeatureCard({ icon: Icon, title, description, imageUrl }: FeatureCardProps) {
     return (
-        <div className='relative group overflow-hidden'>
-            <div className='absolute inset-0 bg-gradient-radial from-accent-peach/30 via-accent-lavender/30 to-transparent rounded-xl blur-xl transition-opacity opacity-0 group-hover:opacity-100'></div>
-            <div className='relative rounded-xl bg-gradient-to-br from-white/80 to-primary-100/50 backdrop-blur-sm border border-primary-200/50 transition-all duration-300 group-hover:translate-y-[-2px] overflow-hidden'>
+        <div className='relative overflow-hidden'>
+            <div className='relative rounded-xl bg-gradient-to-br from-white/80 to-primary-100/50 backdrop-blur-sm border border-primary-200/50'>
                 {imageUrl && (
                     <div className='h-48 overflow-hidden'>
-                        <img
-                            src={imageUrl}
-                            alt={title}
-                            className='w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500'
-                        />
+                        <img src={imageUrl} alt={title} className='w-full h-full object-cover' />
                     </div>
                 )}
                 <div className='p-8'>
